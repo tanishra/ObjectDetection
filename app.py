@@ -4,10 +4,12 @@ from object_detection import ObjectDetector
 import numpy as np
 import tempfile
 from PIL import Image
+import pickle
 
 # Initialize the object detector
-MODEL_PATH = 'yolo-weights/yolov8n.pt'
-detector = ObjectDetector(MODEL_PATH)
+with open('yolo_detector.pkl', 'rb') as f:
+    detector = pickle.load(f)
+
 
 # Streamlit UI elements
 st.title("Object Detection with YOLO")
