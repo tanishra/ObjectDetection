@@ -13,5 +13,5 @@ To try out the web demo of Object Detection , visit Demo Link. 🚀 https://obje
 ## Installation
 
 Clone the repository: git clone https://github.com/tanishra/ObjectDetection.git
-Navigate to the project directory: cd twitter-sentiment-analysis Install dependencies: 
+Navigate to the project directory: cd Object Detection  Install dependencies: 
 pip install -r requirements.txt Run the application: streamlit app.py 🛠️
